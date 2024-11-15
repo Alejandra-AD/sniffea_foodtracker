@@ -16,6 +16,51 @@ public class Food {
     private LocationDTO location;
     private UserDTO user;
     private List<CommentDTO>comment;
+    
+    public Long getId() {
+        return id;
+    }
+    public void setId(Long id) {
+        this.id = id;
+    }
+    public String getBrand() {
+        return brand;
+    }
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+    public PetType getPetType() {
+        return petType;
+    }
+    public void setPetType(PetType petType) {
+        this.petType = petType;
+    }
+    public Double getPrice() {
+        return price;
+    }
+    public void setPrice(Double price) {
+        this.price = price;
+    }
+    public LocationDTO getLocation() {
+        return location;
+    }
+    public void setLocation(LocationDTO location) {
+        this.location = location;
+    }
+    public UserDTO getUser() {
+        return user;
+    }
+    public void setUser(UserDTO user) {
+        this.user = user;
+    }
+    public List<CommentDTO> getComment() {
+        return comment;
+    }
+    public void setComment(List<CommentDTO> comment) {
+        this.comment = comment;
+    }
+
+    
 
 }
 
